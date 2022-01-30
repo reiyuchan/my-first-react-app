@@ -53,7 +53,8 @@
 }
 
 .location-cont > img {
-  width: 9%;
+  max-width: 10vw;
+  max-height: 10vh;
   padding: 10px;
   border-radius: 2rem;
 }
