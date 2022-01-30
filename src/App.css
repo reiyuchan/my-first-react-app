@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: rgb(189, 78, 78);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-style: italic;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar > h2 {
+  color: rgb(255, 229, 195);
+  position: relative;
+  top: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
+.navbar-items {
+  width: 5rem;
+  padding: 10px;
+  animation: rotatePic infinite 10s linear;
+}
+
+@keyframes rotatePic {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
+}
+
+.main-cont {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 7rem;
+  z-index: -1;
+}
+
+.main-cont > img {
+  width: 50%;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.main-sub-cont > a {
+  color: brown;
+}
+
+.main-sub-cont > h2 > img {
+  width: 10%;
+  position: relative;
+  top: 1.7rem;
+  padding: 10px;
+  border-radius: 2rem;
+}
+
+.main-sub-cont {
+  display: flex;
+  flex-direction: column;
 }
