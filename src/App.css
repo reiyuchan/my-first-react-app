@@ -47,10 +47,13 @@
   color: brown;
 }
 
-.main-sub-cont > h2 > img {
-  width: 10%;
-  position: relative;
-  top: 1.7rem;
+.location-cont {
+  display: flex;
+
+}
+
+.location-cont > img {
+  width: 9%;
   padding: 10px;
   border-radius: 2rem;
 }
@@ -58,4 +61,5 @@
 .main-sub-cont {
   display: flex;
   flex-direction: column;
+  padding: 2px;
 }
