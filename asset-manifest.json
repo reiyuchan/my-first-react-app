@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my-first-react-app/static/css/main.48749494.css",
+    "main.js": "/my-first-react-app/static/js/main.19c98f45.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-first-react-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/location_icon.png": "/my-first-react-app/static/media/location_icon.e3d4c392fe81597b99b4.png",
+    "static/media/travel-icon.png": "/my-first-react-app/static/media/travel-icon.1905b96f371960a02ac9.png",
+    "index.html": "/my-first-react-app/index.html",
+    "main.48749494.css.map": "/my-first-react-app/static/css/main.48749494.css.map",
+    "main.19c98f45.js.map": "/my-first-react-app/static/js/main.19c98f45.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-first-react-app/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48749494.css",
+    "static/js/main.19c98f45.js"
+  ]
+}
